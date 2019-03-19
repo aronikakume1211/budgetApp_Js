@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background: radial-gradient(circle, black, white);
+    height: 265px;
+    width: 100%;
+}
+.jumbotro{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.total{
+    color: white;
+    text-align: center;
+}
+.jumbotron{
+    width: 50%;
+    margin-left: 25%;
+    height: 20px;
+}
+.budget__income,
+.budget__expenses {
+    padding: 12px;
+}
+.budget__income{
+    background-color: rgba(0, 238, 255, 0.959);
+    height: 40px;
+    margin-top: 4%;
+    width: 40%;
+    margin-left: 30%
+}
+.budget__expenses{
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    height: 40px;
+    width: 40%;
+    margin-left: 30%
+}
+.budget__expenses:hover budget__expenses--value{
+    margin-right: 20px
+}
+.budget__income--text,
+.budget__expenses--text {
+    float: left;
+    font-size: 13px;
+    color: #444;
+    margin-top: 2px;
+}
+.btn-danger{
+    height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    background-color:  rgb(214, 152, 152);
+    border: none;
+    padding-left: 6px;
+    margin-left: 16px;
+    cursor: not-allowed
+}
+
+.budget__income--value,
+.budget__expenses--value {
+    letter-spacing: 1px;
+    float: left;
+    cursor: not-allowed;
+}
+.budget__income--value{
+    float: right;
+    color: white
+}
+.budget__expenses--value{
+  float: right;
+  color: white
+}
+
+.row1{
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background:radial-gradient(circle, rgb(0, 0, 0), rgb(255, 255, 255))
+}
+.description{
+    width: 100%;
+}
+.value{
+    width: 100px;
+}
+#sel{
+    width: 50px;
+    height: 40px;
+    background-color: white
+}
+
+.btn-primary{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0px 20px 40px 7px;
+    margin-right: 9%;
+    margin-bottom: 1%;
+}
+.btn-primary:hover{
+    background-color: indigo
+}
+/* out put for income and expenses*/
+.inc-out-lebel h1{
+    background-color: rgb(37, 187, 117)
+}
+.btn-info{
+    float: right;
+    margin-right: 1%;
+    height: 40px;
+    background-color: inherit;
+    color: black;
+    margin-top: 1%;
+    border: none;
+}
+.btn-info:hover{
+    background-color: inherit
+}
+.exp-out-lebel h1{
+    background-color: red
+}
+.birr{
+    float: right;
+}
+.for-inc:hover::birr{
+    float: left;
+}
+.delete-inc{
+    border-radius: 50%;
+    width: 25px;
+    border: none;
+    background-color: rgb(170, 106, 106)
+}

@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url("img/background.png");
+    height: 265px;
+    background-color: rgba(rgb(77, 41, 41), rgba(76, 80, 76, 0.048), rgb(162, 162, 211), alpha)
+}
